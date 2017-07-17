@@ -197,7 +197,7 @@ $(document).ready(function() {
 //this is validating the name, email, credit card, zip, and cvv fields using a jquery validator plugin 
 
 jQuery.validator.setDefaults({
-  debug: true,
+  debug: false,
   success: "valid"
 });
 $( "#fullStack" ).validate({
